@@ -1,14 +1,6 @@
 #include <iostream>
 using namespace std;
 
-void updateFlightAlgorithm() {
-    cout << "\nUpdating flight algorithm...\n";
-    cout << " - Adjusting pitch and roll coefficients\n";
-    cout << " - Recalculating thrust-to-weight ratio\n";
-    cout << " - Applying new Kalman filter parameters\n";
-    cout << "Flight algorithm successfully updated.\n";
-}
-
 int main() {
     cout << "SCM Phases:\n";
     cout << "1. Configuration Identification\n";
